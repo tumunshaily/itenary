@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Singapore 4–6 Dec — Itinerary (2 Adults)</title>
+  <style>
+    :root{--accent:#0b74de;--muted:#666}
+    body{font-family:Inter,system-ui,Segoe UI,Arial;margin:0;background:#f7f9fc;color:#122;}
+    header{background:#fff;padding:18px 20px;box-shadow:0 1px 4px rgba(12,20,30,0.06);display:flex;align-items:center;justify-content:space-between}
+    .brand{font-weight:700;color:var(--accent)}
+    .container{max-width:980px;margin:28px auto;padding:0 20px}
+    .card{background:#fff;border-radius:10px;padding:16px;margin-bottom:14px;box-shadow:0 6px 18px rgba(12,20,30,0.04)}
+    h1,h2{margin:0 0 8px}
+    p{margin:6px 0;color:var(--muted)}
+    .places{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:10px;margin-top:10px}
+    .place{border:1px dashed #e6eef9;padding:10px;border-radius:8px;background:linear-gradient(180deg,#fff,#fbfdff)}
+    .actions{display:flex;gap:8px;flex-wrap:wrap}
+    a.button{display:inline-block;padding:8px 12px;border-radius:8px;text-decoration:none;background:var(--accent);color:#fff;font-weight:600}
+    a.ghost{background:#eef5ff;color:var(--accent);border:1px solid #d8eaff}
+    .small{font-size:13px;color:#455}
+    .large{font-size:33px;color:#455}
+    footer{margin:28px 0;text-align:center;color:var(--muted)}
+    .col{display:flex;gap:12px}
+    .timetable{display:grid;grid-template-columns:1fr 110px;gap:8px;align-items:center}
+    code{background:#eef3f8;padding:4px 6px;border-radius:6px;font-size:13px}
+    @media(max-width:560px){.timetable{grid-template-columns:1fr}}
+  </style>
+</head>
+<body>
+  <header>
+    <div class="brand">Singapore Trip — 4–6 Dec</div>
+    <div class="small">2 adults • Arrival: 4 Dec, 6:30PM • Departure: 6 Dec, 5PM</div>
+  </header>
+
+  <main class="container">
+
+    <section class="card">
+      <h2>Quick summary</h2>
+      <p>A short 1.5-day photography-focused plan with directions and links to Google Maps. PDF itinerary is available for download.</p>
+      <div class="actions" style="margin-top:10px">
+        <a class="button" href="sandbox:/mnt/data/Singapore_Itinerary.pdf" download>Download PDF</a>
+        <a class="button ghost" id="openMaps">Open Day 1 routes in Maps</a>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>Day 1 — 4 Dec (Evening)</h2>
+      <div class="timetable">
+        <div>
+                <div class="places">
+        <div class="place"><img src="./Jewel-Changi-Airport.png" style="width:100%;border-radius:6px;margin-bottom:6px" /><strong>7:00 PM</strong> — Jewel Changi Airport (Rain Vortex & dinner)<a class="ghost" href="https://www.google.com/maps/place/Jewel+Changi+Airport" target="_blank">Open map</a></div>
+        <div class="place"><img src="./The-Merlion.png" style="width:100%;border-radius:6px;margin-bottom:6px" /><strong>8:15 PM</strong> — Travel to Marina Bay → Merlion Park<a class="ghost" href="https://www.google.com/maps/place/Merlion+Park" target="_blank">Open map</a></div>
+        <div class="place"><img src="./Dragonfly-Lake-Gardens-By-The-Bay.png" style="width:100%;border-radius:6px;margin-bottom:6px" /><strong>9:00 PM</strong> — Gardens by the Bay — Dragonfly Lake (Supertree light show)<a class="ghost" href="https://www.google.com/maps/place/Dragonfly+Lake" target="_blank">Open map</a></div>
+        </div>
+        <br>
+        <div class="large">
+          <code>Jewel → Merlion → Gardens by the Bay</code>
+        </div>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>Day 2 — 5 Dec (Full Day)</h2>
+      <p class="small">Start early to fit all photo spots — LAVO at sunset for skyline shots.</p>
+      <div class="places">
+        <div class="place"><img src="./Cloud-Forest-Waterfall.png" style="width:100%;border-radius:6px;margin-bottom:6px" /><strong>Cloud Forest Waterfall</strong><br><span class="small">Gardens by the Bay — indoor waterfall</span><br><a class="ghost" href="https://maps.google.com/?q=Cloud+Forest+Gardens+by+the+Bay" target="_blank">Open map</a></div>
+        <div class="place"><img src="./art-museum.avif" style="width:100%;border-radius:6px;margin-bottom:6px" /><strong>ArtScience Museum</strong><br><span class="small">Marina Bay Sands</span><br><a class="ghost" href="https://maps.google.com/?q=ArtScience+Museum+Singapore" target="_blank">Open map</a></div>
+        <div class="place"><img src="./GIG-Cafe.png" style="width:100%;border-radius:6px;margin-bottom:6px" /><strong>GIG Café</strong><br><span class="small">Cafe for coffee & photos</span><br><a class="ghost" href="https://maps.google.com/?q=GIG+Cafe+Singapore" target="_blank">Open map</a></div>
+        <div class="place"><img src="./Old-Hill-Street-Police-Station.png" style="width:100%;border-radius:6px;margin-bottom:6px" /><strong>Old Hill Street Police Station</strong><br><span class="small">Colorful windows</span><br><a class="ghost" href="https://maps.google.com/?q=Old+Hill+Street+Police+Station" target="_blank">Open map</a></div>
+        <div class="place"><img src="./Telok-Blangah-Hill-Park.png" style="width:100%;border-radius:6px;margin-bottom:6px" /><strong>Telok Blangah Hill Park</strong><br><span class="small">Henderson Waves nearby</span><br><a class="ghost" href="https://maps.google.com/?q=Telok+Blangah+Hill+Park" target="_blank">Open map</a></div>
+        <div class="place"><img src="./The-Hive.png" style="width:100%;border-radius:6px;margin-bottom:6px" /><strong>The Hive (NTU)</strong><br><span class="small">NTU architecture — Dim Sum building</span><br><a class="ghost" href="https://maps.google.com/?q=The+Hive+NTU+Singapore" target="_blank">Open map</a></div>
+        <div class="place"><img src="./lavo-singapore-nightclub.jpg" style="width:100%;border-radius:6px;margin-bottom:6px" /><strong>LAVO Italian Restaurant</strong><br><span class="small">57th floor — MBS Tower 1 (sunset dinner)</span><br><a class="ghost" href="https://maps.google.com/?q=LAVO+Italian+Restaurant+Singapore" target="_blank">Open map</a></div>
+        <div class="place"><img src="./sultan-mosque.png" style="width:100%;border-radius:6px;margin-bottom:6px" /><strong>Sultan Mosque</strong><br><span class="small">Afternoon near Haji Lane</span><br><a class="ghost" href="https://www.google.com/maps/place/Sultan+Mosque" target="_blank">Open map</a></div>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>Day 3 — 6 Dec (Departure)</h2>
+      <div class="places">
+        <div class="place"><img src="./Jewel-Changi-Airport.png" style="border-radius:6px;margin-bottom:6px" /><br><strong> Terminal 2 & Jewel</strong><br><span class="small">Jewel Airport</span><br><a class="ghost" href="https://www.google.com/maps/place/Jewel+Changi+Airport" target="_blank">Open map</a></div>
+            </div>
+      <p><strong>2:30 PM:</strong> Arrive at airport for baggage & security (flight 5 PM)</p>
+    </section>
+
+    <section class="card">
+      <h2>Practical notes</h2>
+      <ul>
+        <li>Raffles Lighthouse is not included (restricted access).</li>
+        <li>For The Hive (NTU) expect a 30–40 minute transit from central Marina Bay — taxi recommended.</li>
+        <li>LAVO reservations recommended for sunset window (6:45–7:30 PM).</li>
+      </ul>
+    </section>
+
+    <footer>
+      Created for you — open the file to preview or use the map links. Have a great trip! ✈️
+    </footer>
+
+  </main>
+
+  <script>
+    document.getElementById('openMaps').addEventListener('click', function(){
+      // open day 1 spots in new tabs
+      window.open('https://maps.google.com/?q=Jewel+Changi+Airport','_blank');
+      window.open('https://maps.google.com/?q=Merlion+Park+Singapore','_blank');
+      window.open('https://maps.google.com/?q=Dragonfly+Lake+Gardens+by+the+Bay','_blank');
+    });
+  </script>
+</body>
+</html>
